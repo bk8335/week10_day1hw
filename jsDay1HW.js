@@ -123,3 +123,20 @@ var outerFunction = function() {
 
 outerFunction();
 console.log('the murderer is ', murderer);
+
+
+
+
+// Episode 7
+// will print a massive number
+
+var number1 = 1;
+
+var allTheNumbers = function() {
+  var number1 = 18;
+  var number2 = 4;
+  return number2 * number1  ** 3;
+}
+
+console.log("the number is: " + allTheNumbers() );
+console.log("number1 is: " + number1);
